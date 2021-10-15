@@ -1,6 +1,6 @@
 import { State, Getters, Mutations, MutationsInterface } from './types';
 
-const MINUTES = 25; // define de quantos minutos será o countdown
+const MINUTES = 0.05; // define de quantos minutos será o countdown
 
 export const state = (): State => ({
 	time: MINUTES * 60, // converte o tempo em segundos
