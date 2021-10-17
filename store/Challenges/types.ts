@@ -28,7 +28,7 @@ export interface State {
 }
 
 export interface Getters {
-	challengesLenght: (state: State) => number;
+	challengesLength: (state: State) => number;
 	currentXpPercentage: (state: State) => number;
 	currentChallenge: (state: State) => Challenge | null;
 }
