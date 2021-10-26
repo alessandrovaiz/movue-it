@@ -76,7 +76,7 @@ export default Vue.extend({
 
 			if (Notification?.permission === 'granted') {
 				playAudio('/notification.mp3');
-				sendNotification('New Challenge', {
+				sendNotification('New Challenge!', {
 					body: 'A new challenge has started! Go complete it!',
 					icon: '/favicon.png',
 				});
